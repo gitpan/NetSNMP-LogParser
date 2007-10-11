@@ -1,0 +1,21 @@
+Build.PL
+Makefile.PL
+MANIFEST
+META.yml			# Will be created by "make dist"
+README
+Changes
+bin/logparser
+etc/log4perl.conf
+etc/logparser.conf
+lib/NetSNMP/LogParser.pm
+lib/NetSNMP/LogParserDriver.pm
+lib/NetSNMP/LogParserDriver/ExampleDriver.pm
+lib/NetSNMP/LogParserDriver/ProxyLog.pm
+t/00-load.t
+t/boilerplate.t
+t/concurrentProcess.t
+t/logparser.t
+t/pod-coverage.t
+t/pod.t
+log/logparser.log
+work/logparser.properties
