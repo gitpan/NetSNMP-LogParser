@@ -1,6 +1,6 @@
 ---
 name: NetSNMP-LogParser
-version: 1.0470
+version: 1.0479
 author:
   - 'Nito Martinez <nito@qindel.es>'
 abstract: An incremental logparser to be used with Net-SNMP
@@ -8,7 +8,7 @@ license: perl
 resources:
   license: http://dev.perl.org/licenses/
 requires:
-  Config::Properties::Simple: 0
+  Config::Properties::Simple: 0.14
   File::Spec: 0
   File::Temp: 0
   File::stat: 0
@@ -20,10 +20,11 @@ requires:
   Statistics::Descriptive: 0
   Storable: 0
   Test::More: 0
+  Test::Pod::Coverage: 1.04
 provides:
   NetSNMP::LogParser:
     file: lib/NetSNMP/LogParser.pm
-    version: 1.0470
+    version: 1.0479
   NetSNMP::LogParserDriver:
     file: lib/NetSNMP/LogParserDriver.pm
   NetSNMP::LogParserDriver::ExampleDriver:

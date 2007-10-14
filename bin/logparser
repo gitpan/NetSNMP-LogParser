@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 #
-# $Id: logparser 466 2007-10-11 07:33:39Z nito $
+# $Id: logparser 474 2007-10-14 15:14:16Z nito $
 #
 # Generic parser script used to
 # fetch data from logs to cricket
@@ -43,7 +43,7 @@ sub pidIsRunning($);
 
 # Constants
 use constant AUTHOR => 'Nito@Qindel.ES';
-use constant VERSION => '$Id: logparser 466 2007-10-11 07:33:39Z nito $ ';
+use constant VERSION => '$Id: logparser 474 2007-10-14 15:14:16Z nito $ ';
 use constant LOG_TAG => 'logparser';
 use constant NUM_PROCESSES => 1;
 use constant STOREFILE => '/var/lib/logparser/logparser.store';
@@ -132,7 +132,7 @@ sub cleanupAndExit($) {
 sub get_command_line_options($) {
   my ($globalsavespace_ref) = @_;
 
-  our ($opt_f, $opt_p, $opt_s, $opt_h, $opt_v, $opt_d, $opt_l, $opt_o, $opt_k);
+  our ($opt_f, $opt_p, $opt_s, $opt_h, $opt_v, $opt_l, $opt_o, $opt_k);
   getopts('f:p:s:l:hv') or pod2usage(2);
 
   if ($opt_v) {

@@ -1,6 +1,13 @@
-$Id: Changes 470 2007-10-11 09:23:02Z nito $
+$Id: Changes 479 2007-10-14 16:13:06Z nito $
 
 Revision history for NetSNMP-LogParser
+
+1.0479  14/10/2007
+        Changed lib/NetSNMP/MibProxy.pm to not use the our declaration which breaks the test on perl5.005
+
+1.0475    14-10-2007
+	Delete the only used once $opt_d in line 162 of bin/logparser
+	Added Test::Pod::Coverage 1.04 to the requisites in Build.PL
 
 1.0469    11-10-2007
         Changed name from QND-NetSNMP-LogParser to NetSNMP-LogParser

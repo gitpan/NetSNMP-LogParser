@@ -1,0 +1,44 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 3effdfc97303df97c0a78394a7fe10577807ef38 Build.PL
+SHA1 e75a5d8b1bb1db4945b98e888db1541c188b3d38 Changes
+SHA1 29cae55ff9f402bae5a7a803204420e7df04eaa5 MANIFEST
+SHA1 218cf44e56952f0987e0adaf77c7b9352b4af64a META.yml
+SHA1 cd14ada78fb37a0d926edd86eddcdf7f939de582 Makefile.PL
+SHA1 97d22dd3d5913797405ccd9c9a309ded73e65889 README
+SHA1 ee9204eb90614e4d744c44e5095060246da5db00 bin/logparser
+SHA1 b48d054f9116f84960a21e7f2cae16fba15916c3 etc/log4perl.conf
+SHA1 2e655263905fee2c22d369e6fa9272509f4c1e42 etc/logparser.conf
+SHA1 022db02efd612de06d342f54f99fd50615a99cce lib/NetSNMP/LogParser.pm
+SHA1 bf08055021cb9bced0748665c58c1dbf406681f4 lib/NetSNMP/LogParserDriver.pm
+SHA1 6ee0c55b05fdbc360f5c5335a7d1c659aeec52c3 lib/NetSNMP/LogParserDriver/ExampleDriver.pm
+SHA1 176a97c2c3f4ec1c38a870e80ca7174599077e41 lib/NetSNMP/LogParserDriver/ProxyLog.pm
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 log/logparser.log
+SHA1 f3e467fdcf0e5854fc68bac14796b2cd34e72c8d t/00-load.t
+SHA1 28cd6defac5f2f67088e8caf2338d903336b9bad t/boilerplate.t
+SHA1 d7a7a501f43d306f5db9e0d4206aa0451a646c02 t/concurrentProcess.t
+SHA1 31aff0568bd92ae7c005819baf9e55222d02fc67 t/logparser.t
+SHA1 6da39b48ce64b584e4c3274bff96fc76ff484820 t/pod-coverage.t
+SHA1 0190346d7072d458c8a10a45c19f86db641dcc48 t/pod.t
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 work/logparser.properties
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFHEj6QcV+oKB/QqikRArteAJ0bgRxMpgYoy++tQgakbFC/W62DsgCgtzsi
+JUiIJjFc6dr/qacG9Cli+oI=
+=rhZF
+-----END PGP SIGNATURE-----

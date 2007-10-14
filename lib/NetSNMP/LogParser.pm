@@ -2,8 +2,8 @@ package NetSNMP::LogParser;
 
 use warnings;
 use strict;
-
-our $VERSION = sprintf "1.%04d", q$Revision: 470 $ =~ /(\d+)/g;
+# Checked version
+$NetSNMP::LogParser::VERSION = sprintf "1.%04d", q$Revision: 479 $ =~ /(\d+)/g;
 
 =head1 NAME
 
@@ -11,7 +11,7 @@ NetSNMP::LogParser - An incremental logparser to be used with Net-SNMP
 
 =head1 VERSION
 
-Version $Revision: 470 $
+Version $Revision: 479 $
 
 =head1 SYNOPSIS
 
