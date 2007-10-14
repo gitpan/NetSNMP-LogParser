@@ -1,6 +1,9 @@
-$Id: Changes 479 2007-10-14 16:13:06Z nito $
+$Id: Changes 480 2007-10-14 20:23:03Z nito $
 
 Revision history for NetSNMP-LogParser
+
+1.0480  14/10/2007
+        Changed t/mibProxy.t to not setup PERL5LIB
 
 1.0479  14/10/2007
         Changed lib/NetSNMP/MibProxy.pm to not use the our declaration which breaks the test on perl5.005

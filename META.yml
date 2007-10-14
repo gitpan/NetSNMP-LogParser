@@ -1,6 +1,6 @@
 ---
 name: NetSNMP-LogParser
-version: 1.0479
+version: 1.0480
 author:
   - 'Nito Martinez <nito@qindel.es>'
 abstract: An incremental logparser to be used with Net-SNMP
@@ -24,7 +24,7 @@ requires:
 provides:
   NetSNMP::LogParser:
     file: lib/NetSNMP/LogParser.pm
-    version: 1.0479
+    version: 1.0480
   NetSNMP::LogParserDriver:
     file: lib/NetSNMP/LogParserDriver.pm
   NetSNMP::LogParserDriver::ExampleDriver:

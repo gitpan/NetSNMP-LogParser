@@ -11,7 +11,6 @@ use_ok('Config::Properties');
 use constant CLEAN => 1;
 
 $ENV{'PATH'} = '/bin:/usr/bin';
-$ENV{'PERL5LIB'} = 'blib/lib';
 
 
 sub createConfigFile($$$$$$);
