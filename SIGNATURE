@@ -14,16 +14,16 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 3effdfc97303df97c0a78394a7fe10577807ef38 Build.PL
-SHA1 848957d4df1252a80d6a5f0d17feabbc855d80d6 Changes
+SHA1 85674eec2ec21971105a37e6d68a78b8f0129566 Build.PL
+SHA1 683c3ee2548daa283f4a8edd618deecb5a888bfa Changes
 SHA1 29cae55ff9f402bae5a7a803204420e7df04eaa5 MANIFEST
-SHA1 0f181318538dbc2f9cd8fccd1631b539e34c5091 META.yml
+SHA1 ec3cf50989faa7e2ef64acc5f181d75281946eac META.yml
 SHA1 cd14ada78fb37a0d926edd86eddcdf7f939de582 Makefile.PL
 SHA1 97d22dd3d5913797405ccd9c9a309ded73e65889 README
 SHA1 ee9204eb90614e4d744c44e5095060246da5db00 bin/logparser
 SHA1 b48d054f9116f84960a21e7f2cae16fba15916c3 etc/log4perl.conf
 SHA1 2e655263905fee2c22d369e6fa9272509f4c1e42 etc/logparser.conf
-SHA1 5a3b202f1ca31fd6a795884024df96963ad0f72d lib/NetSNMP/LogParser.pm
+SHA1 d283d855971ac4d2665e3c91df6d12759532047f lib/NetSNMP/LogParser.pm
 SHA1 bf08055021cb9bced0748665c58c1dbf406681f4 lib/NetSNMP/LogParserDriver.pm
 SHA1 6ee0c55b05fdbc360f5c5335a7d1c659aeec52c3 lib/NetSNMP/LogParserDriver/ExampleDriver.pm
 SHA1 176a97c2c3f4ec1c38a870e80ca7174599077e41 lib/NetSNMP/LogParserDriver/ProxyLog.pm
@@ -38,7 +38,7 @@ SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 work/logparser.properties
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.6 (GNU/Linux)
 
-iD8DBQFHEnk7cV+oKB/QqikRAmx1AKCxB+pQ7S6PgEun6qZnkVkyXaQw7wCghH7E
-I5Vp6WDKFWKqGMzkwBmBhxc=
-=lLfn
+iD8DBQFHEvh0cV+oKB/QqikRAtHzAKCFXU/K+P/UzFREuQkzrV8fkWLPuQCePTfL
+Smsl5aDZiW0oN2vkHiSwHeU=
+=YEXz
 -----END PGP SIGNATURE-----
