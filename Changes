@@ -1,6 +1,9 @@
-$Id: Changes 481 2007-10-15 05:26:39Z nito $
+$Id: Changes 530 2007-10-17 20:19:33Z nito $
 
 Revision history for NetSNMP-LogParser
+
+1.0530  17/10/2007
+        Removed taint mode in t/logparser.t (Problems with File::Path 2.01 in perl 5.6.2). I rather have it working in more versions than tainted
 
 1.0481  15/10/2007
         Changed Build.PL for a dependency on File::Path 1.05 for Taint mode
