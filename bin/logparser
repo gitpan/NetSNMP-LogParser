@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 #
-# $Id: logparser 474 2007-10-14 15:14:16Z nito $
+# $Id: logparser 536 2007-10-18 19:51:43Z nito $
 #
 # Generic parser script used to
 # fetch data from logs to cricket
@@ -43,7 +43,7 @@ sub pidIsRunning($);
 
 # Constants
 use constant AUTHOR => 'Nito@Qindel.ES';
-use constant VERSION => '$Id: logparser 474 2007-10-14 15:14:16Z nito $ ';
+use constant VERSION => '$Id: logparser 536 2007-10-18 19:51:43Z nito $ ';
 use constant LOG_TAG => 'logparser';
 use constant NUM_PROCESSES => 1;
 use constant STOREFILE => '/var/lib/logparser/logparser.store';
@@ -326,7 +326,7 @@ sub seekFile($$$) {
   if ($fileLength < $$seekPosition_ref) {
     $$seekPosition_ref = 0;
   }
-  my $seekResult = seek ($file, $$seekPosition_ref, SEEK_SET) or
+  my $seekResult = seek ($file, $$seekPosition_ref, &Fcntl::SEEK_SET) or
     cleanupAndExit("Cannot seek position $$seekPosition_ref for file ".$fileName.":$!");
 
   $logger->info("Seek position is now $$seekPosition_ref for file ".$fileName);

@@ -1,6 +1,10 @@
-$Id: Changes 530 2007-10-17 20:19:33Z nito $
+$Id: Changes 537 2007-10-18 19:52:35Z nito $
 
 Revision history for NetSNMP-LogParser
+
+1.0537  18/10/2007
+        Changed SEEK_CUR in &Fcntl::SEEK_CUR because of "t/logparser............Undefined subroutine &File::Temp::SEEK_SET called at blib/script/logparser line 332."
+
 
 1.0530  17/10/2007
         Removed taint mode in t/logparser.t (Problems with File::Path 2.01 in perl 5.6.2). I rather have it working in more versions than tainted
